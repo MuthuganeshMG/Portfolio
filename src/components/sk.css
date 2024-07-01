@@ -1,0 +1,158 @@
+/* .skill-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.skill-img {
+    margin-bottom: 20px;
+}
+
+.right, .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right-head, .left-head {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.skillset-right, .skillset-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skillset-right h5, .skillset-left h5 {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.skillset-right h5:hover, .skillset-left h5:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.1);
+} */
+.skill-container > h2 {
+    margin-top: 10%;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 26%;
+}
+
+.skill-container > h2:hover {
+    color: aliceblue;
+    background-color: orange;
+    border: none;
+}
+
+.skill-img > img {
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+}
+
+.left {
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    margin-left: 18%;
+    margin-top: 5%;
+    background-color: teal;
+}
+
+.right {
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: teal;
+}
+
+.right-head, .left-head {
+    background-color: coral;
+    width: fit-content;
+    margin-left: 70%;
+    margin-top: 2%;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.skillset-left > h5, .skillset-right > h5 {
+    background-color: tomato;
+    color: white;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .skill-container > h2 {
+        margin-left: 10%;
+    }
+
+    .right, .left {
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .right-head, .left-head {
+        margin-left: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-container > h2 {
+        margin-left: 5%;
+    }
+
+    .skill-img > img {
+        position: relative;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right, .left {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .right-head, .left-head {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-container > h2 {
+        margin-left: 2%;
+    }
+
+    .right, .left {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .right-head, .left-head {
+        margin-left: 5%;
+    }
+
+    .skillset-left > h5, .skillset-right > h5 {
+        margin-left: 0; /* Reset margin left for all h5 tags */
+        text-align: center; /* Center align all h5 tags */
+    }
+}

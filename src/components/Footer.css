@@ -1,0 +1,139 @@
+/* .footer-container {
+    background-color: black;
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 25%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contact {
+    margin: 2% 10%;
+    cursor: pointer;
+}
+
+.contact>a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact>h5:hover {
+    color: red;
+}
+
+.contact>p:hover {
+    color: red;
+}
+
+.contact>a:hover {
+    color: red;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.icons>a {
+    margin: 5px;
+    padding: 3px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.icons>a:hover {
+    color: red;
+}
+
+.copyrights {
+    margin: auto;
+}
+
+.copyrights:hover {
+    color: red;
+} */
+
+
+
+.footer-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Add padding to create space between content and edges */
+}
+
+.contact {
+    flex: 1 1 300px; /* Flexible width with minimum width of 300px */
+    margin: 10px; /* Adjust margin for better spacing */
+    padding: 10px; /* Add padding inside each contact section */
+    cursor: pointer;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact h5:hover,
+.contact p:hover,
+.contact a:hover {
+    color: red;
+}
+
+.aboutme {
+    flex: 1 1 300px; /* Flexible width with minimum width of 300px */
+    margin: 10px; /* Adjust margin for better spacing */
+    padding: 10px; /* Add padding inside the about me section */
+}
+
+.icons {
+    flex: 1 1 300px; /* Flexible width with minimum width of 300px */
+    margin: 10px; /* Adjust margin for better spacing */
+    padding: 10px; /* Add padding inside the icons section */
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+}
+
+.icons a {
+    margin: 5px;
+    padding: 3px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.icons a:hover {
+    color: red;
+}
+
+.copyrights {
+    flex: 1 1 100%;
+    text-align: center; /* Center align copyright text */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.copyrights:hover {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center align items on small screens */
+    }
+
+    .contact,
+    .aboutme,
+    .icons {
+        width: 100%; /* Full width for each section on small screens */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+}

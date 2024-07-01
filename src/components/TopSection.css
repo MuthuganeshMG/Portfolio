@@ -1,0 +1,83 @@
+img {
+    max-width: 100%;
+    position: absolute;
+}
+
+.text-section {
+    position: relative;
+    text-align: right;
+    padding-right: 8%;
+    padding-top: 30%;
+    line-height: 8px;
+    color: orangered;
+}
+
+.download-btn {
+    background-color: orangered;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    width: fit-content;
+    border: none;
+}
+
+.download-btn:hover {
+    color: orangered;
+    background-color: white;
+}
+
+.work-btn {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 8px 20px;
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+}
+
+.work-btn:hover {
+    color: orangered;
+    background-color: white;
+    font-weight: 400;
+    border: none;
+}
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .text-section {
+        padding-top: 25%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-section {
+        /* text-align: center; */
+        padding: 12% 5%;
+        line-height: 1;
+    }
+
+    .download-btn,
+    .work-btn {
+        margin-right: 10px;
+    }
+}
+/* 
+@media (max-width: 480px) {
+    .text-section {
+        padding: 50% 5%;
+    }
+
+    .download-btn,
+    .work-btn {
+        display: block;
+        width: 100%;
+        margin: 1zpx 0;
+    }
+} */

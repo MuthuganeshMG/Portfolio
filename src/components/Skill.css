@@ -1,0 +1,131 @@
+.skill-container>h2 {
+    margin-top: 10%;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 26%;
+    /* top: 80px;
+    position: sticky;
+    z-index: 3000; */
+}
+
+.skill-container>h2:hover {
+    color: aliceblue;
+    background-color: orange;
+    border: none;
+}
+
+.skill-img>img {
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+}
+
+.left {
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    margin-left: 18%;
+    margin-top: 5%;
+    background-color: teal;
+}
+
+.right {
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: teal;
+    /* opacity: 0.9; */
+}
+
+.right-head {
+    background-color: coral;
+    width: fit-content;
+    margin-left: 70%;
+    margin-top: 2%;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.left-head {
+    background-color: coral;
+    width: fit-content;
+    margin-left: 70%;
+    margin-top: 2%;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.skillset-left>h5 {
+    background-color: tomato;
+    color: white;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.skillset-right>h5 {
+    background-color: tomato;
+    color: white;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    /* margin-top: 100px; */
+}
+
+.skillset-left>h5:nth-child(1) {
+    margin-left: 55%;
+}
+
+.skillset-left>h5:nth-child(2) {
+    margin-left: 35%;
+}
+
+.skillset-left>h5:nth-child(3) {
+    margin-left: 23%;
+}
+
+.skillset-left>h5:nth-child(4) {
+    margin-left: 8%;
+}
+
+.skillset-right>h5:nth-child(1) {
+    margin-left: 50%;
+}
+
+h5:nth-child(2) {
+    margin-left: 28%;
+}
+
+h5:nth-child(3) {
+    margin-left: 5%;
+}
+
+.right-head:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.left-head:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.skillset-right>h5:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.skillset-left>h5:hover {
+    color: black;
+    cursor: pointer;
+}
