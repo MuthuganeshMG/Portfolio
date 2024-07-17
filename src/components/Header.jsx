@@ -13,7 +13,7 @@ export default function Header() {
         <div className="header">
             <div className="head-left">
                 <h1>
-                    <span>MERN </span> 
+                    <span>FULL </span> 
                     Stack Developer
                 </h1>
             </div>

@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
 import kmc1 from '../assets/kmc1.png';
 import './TopSection.css';
 
 export default function TopSection() {
 
     const handleDownloadCV = () => {
-        // Implement download functionality or navigation logic
-        window.location.href = 'https://mail.google.com/mail/u/0/#inbox/KtbxLwhGPhbjvFmRWlQxHjqbbNMHLMPpbq?projector=1&messagePartId=0.1';
+        window.location.href = 'https://mail.google.com/mail/u/0/#label/My+CV/KtbxLzFrLTKkFgcQPhMbfTZQpJvBKBNQkL';
         console.log('Download CV clicked');
     };
 
     const handleMyWork = () => {
-        // Implement navigation or display work logic
         window.location.href = 'https://github.com/MuthuganeshMG?tab=repositories';
 
         console.log('My Work clicked');
@@ -19,14 +16,16 @@ export default function TopSection() {
 
     return (
         <div className='container-section' id='home'>
-            <div className="img">
+            <div className="image">
                 <img src={kmc1} alt="img" />
             </div>
             <div className="text-section">
                 <div className="text">
                     <h1>Muthuganesh M</h1>
                     <p>
-                        <bold>MERN Stack developer</bold>
+                        <strong>
+                        MERN Stack developer
+                        </strong>
                     </p>
                 </div>
                 <div className="button-section">

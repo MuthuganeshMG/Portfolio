@@ -1,0 +1,12 @@
+.certificate-container{
+    display: flex;
+    /* flex-direction: column; */
+    color: black;
+}
+.certificate{
+    display: flex;
+    flex-direction: column;
+}
+.certificate li{
+    list-style-type: none;
+}

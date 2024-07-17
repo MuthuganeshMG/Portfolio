@@ -67,13 +67,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px; /* Add padding to create space between content and edges */
-}
+    padding: 20px; 
+} 
+
 
 .contact {
-    flex: 1 1 300px; /* Flexible width with minimum width of 300px */
-    margin: 10px; /* Adjust margin for better spacing */
-    padding: 10px; /* Add padding inside each contact section */
+    flex: 1 1 300px; 
+    margin: 10px; 
+    padding: 10px; 
     cursor: pointer;
 }
 
@@ -89,17 +90,17 @@
 }
 
 .aboutme {
-    flex: 1 1 300px; /* Flexible width with minimum width of 300px */
-    margin: 10px; /* Adjust margin for better spacing */
-    padding: 10px; /* Add padding inside the about me section */
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .icons {
-    flex: 1 1 300px; /* Flexible width with minimum width of 300px */
-    margin: 10px; /* Adjust margin for better spacing */
-    padding: 10px; /* Add padding inside the icons section */
+    flex: 1 1 300px;
+    margin: 10px; 
+    padding: 10px; 
     display: flex;
-    justify-content: flex-end; /* Align icons to the right */
+    justify-content: flex-end; 
 }
 
 .icons a {
@@ -116,8 +117,8 @@
 
 .copyrights {
     flex: 1 1 100%;
-    text-align: center; /* Center align copyright text */
-    padding: 10px; /* Add padding for better spacing */
+    text-align: center; 
+    padding: 10px; 
 }
 
 .copyrights:hover {
@@ -126,14 +127,14 @@
 
 @media (max-width: 768px) {
     .footer-container {
-        flex-direction: column; /* Stack items vertically on small screens */
-        align-items: center; /* Center align items on small screens */
+        flex-direction: column; 
+        align-items: center;
     }
 
     .contact,
     .aboutme,
     .icons {
-        width: 100%; /* Full width for each section on small screens */
-        margin: 10px 0; /* Adjust margin for better spacing */
+        width: 100%; 
+        margin: 10px 0; 
     }
 }

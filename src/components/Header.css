@@ -19,7 +19,13 @@
     text-align: center;
     letter-spacing: 1px;
     padding: 20px 0;
+    font-size: 25px;
 }
+
+.head-left>h1 span {
+    font-size: 30px;
+}
+
 
 .head-left>h1:hover {
     color: tomato;
@@ -39,8 +45,8 @@ span:hover {
     justify-content: space-evenly;
     align-items: center;
     margin-right: 20px;
-    font-size: 2rem;
-cursor: pointer;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 /* .header {

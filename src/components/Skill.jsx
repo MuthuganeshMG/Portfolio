@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skill.css';
-// import './sk.css'
 import skillset from '../assets/skillset.jpg'
 
 export default function Skill() {
