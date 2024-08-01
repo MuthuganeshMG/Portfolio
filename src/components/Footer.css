@@ -1,67 +1,6 @@
-/* .footer-container {
-    background-color: black;
-    max-width: 100%;
-    max-height: auto;
-    margin-top: 25%;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.contact {
-    margin: 2% 10%;
-    cursor: pointer;
-}
-
-.contact>a {
-    text-decoration: none;
-    color: white;
-}
-
-.contact>h5:hover {
-    color: red;
-}
-
-.contact>p:hover {
-    color: red;
-}
-
-.contact>a:hover {
-    color: red;
-}
-
-.aboutme {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin-left: 20%;
-    margin-top: 2%;
-}
-
-.icons>a {
-    margin: 5px;
-    padding: 3px;
-    cursor: pointer;
-    color: white;
-    font-size: 30px;
-}
-
-.icons>a:hover {
-    color: red;
-}
-
-.copyrights {
-    margin: auto;
-}
-
-.copyrights:hover {
-    color: red;
-} */
 
 
-
-.footer-container {
+ .footer-container {
     background-color: black;
     color: white;
     display: flex;
@@ -107,7 +46,7 @@
     margin: 5px;
     padding: 3px;
     cursor: pointer;
-    color: white;
+    color: rgb(227, 14, 14);
     font-size: 30px;
 }
 
@@ -137,4 +76,4 @@
         width: 100%; 
         margin: 10px 0; 
     }
-}
+} 

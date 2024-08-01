@@ -31,7 +31,7 @@ export default function Footer() {
                 </h4>
                 <div className="about" >
                     {/* <p> */}
-                        I am MUTHUGANESH, a recent graduate with a degree in
+                        I am MUTHUGANESH, a recent graduate with a degree in B.E
                         Mechanical Engineering from King College of Technology.
                         My academic journey has allowed me to develop
                         a strong foundation in software design and development principles.

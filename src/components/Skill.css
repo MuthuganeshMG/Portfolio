@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
 .skill-container>h2 {
-    margin-top: 100px;
+    margin-top: 50px;
     color: black;
     border: 1px solid black;
     width: fit-content;
@@ -8,7 +14,7 @@
     margin-left: 26%;
     top: 80px;
     position: sticky;
-    z-index: 3000; 
+    z-index: 3000;
 }
 
 .skill-container>h2:hover {
@@ -23,6 +29,7 @@
     /* position: relative; */
     max-width: 50%;
     height: auto;
+    margin-top: 0px;
 }
 
 .left {
@@ -132,21 +139,25 @@ h5:nth-child(3) {
     color: black;
     cursor: pointer;
 }
+
 @media (min-width: 768px) {
-    .right .left{
+    .right .left {
         width: 50%;
     }
 }
+
 @media (max-width: 992px) {
-    .right .left{
+    .right .left {
         width: 50%;
     }
 }
-@media (min-width: 1200px)  {
-    .skill-container{
+
+@media (min-width: 1200px) {
+    .skill-container {
         margin-top: 250px;
     }
-    .right .left{
+
+    .right .left {
         width: 50%;
     }
 }

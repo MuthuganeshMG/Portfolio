@@ -3,7 +3,6 @@ import TopSection from './components/TopSection';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Skill from './components/Skill';
-import Certification from './components/Certification';
 import ProjectContainer from './components/ProjectContainer';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Header/>
       <TopSection/>
       <Skill/>
-      {/* <Certification/> */}
       <ProjectContainer/>
       <Footer/>
     </div>

@@ -19,13 +19,11 @@ export default function TopSection() {
             <div className="image">
                 <img src={kmc1} alt="img" />
             </div>
-            <div className="text-section">
-                <div className="text">
-                    <h1>Muthuganesh M</h1>
-                    <p>
-                        <strong>
+            <div className="text">
+                <div className="text-section">
+                    <h1 id='mg'>MUTHUGANESH M</h1>
+                    <p className='domain'>
                         MERN Stack developer
-                        </strong>
                     </p>
                 </div>
                 <div className="button-section">
