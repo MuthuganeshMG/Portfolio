@@ -7,17 +7,6 @@ export default function Container(props) {
         window.location.href = 'https://github.com/MuthuganeshMG';
         console.log('project clicked');
     };
-    // const handleClickTodo = () => {
-    //     // Implement download functionality or navigation logic
-    //     window.location.href = 'https://github.com/MuthuganeshMG/Todo List';
-    //     console.log('project clicked');
-    // };
-    // const handleClickSignIn = () => {
-    //     // Implement download functionality or navigation logic
-    //     window.location.href = 'https://github.com/MuthuganeshMG/Sign-In-Page';
-    //     console.log('project clicked');
-    // };
-
     const { project } = props;
     return (
         <div className='project-container' id='Project'>
