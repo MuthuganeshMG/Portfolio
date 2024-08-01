@@ -42,7 +42,7 @@ export default function TopSection() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 

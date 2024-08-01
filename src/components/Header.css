@@ -49,11 +49,6 @@ span:hover {
     cursor: pointer;
 }
 
-/* .header {
-    font-size: 18px;
-    cursor: pointer;
-} */
-
 .head:hover {
     transform: scale(1.09);
     background-color: orangered;
@@ -66,42 +61,6 @@ span:hover {
 .head-gray {
     border-bottom: 2px solid orangered;
 }
-
-/* .header {
-    background-color: black;
-    height: 80px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 2000;
-    padding: 0 20px;
-} */
-
-
-/* .head-left > h1 {
-    margin: 0; 
-    padding: 10px 0; 
-    font-size: 1.5rem; 
-} */
-
-/* .head-right {
-    flex: 0.7; 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-} */
-
-/* .head {
-    font-size: 16px; 
-    cursor: pointer;
-    padding: 8px 12px; 
-} */
-
-/* .head:hover {
-    transform: scale(1.05);} */
 
 @media (max-width: 768px) {
     .header {
@@ -118,7 +77,6 @@ span:hover {
     }
 
     .head-right h4 {
-        /* flex: 0.6; */
         font-size: 0.8rem;
     }
 

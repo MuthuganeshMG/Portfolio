@@ -3,7 +3,7 @@ import './Header.css';
 import { Link } from 'react-scroll';
 
 export default function Header() {
-    const [active, setActive] = useState('Home'); // Default active link
+    const [active, setActive] = useState('Home');
 
     const handleClick = (link) => {
         setActive(link);
@@ -13,7 +13,7 @@ export default function Header() {
         <div className="header">
             <div className="head-left">
                 <h1>
-                    <span>FULL </span> 
+                    <span>FULL </span>
                     Stack Developer
                 </h1>
             </div>
@@ -43,5 +43,5 @@ export default function Header() {
                 </Link>
             </div>
         </div>
-    )
+    );
 }

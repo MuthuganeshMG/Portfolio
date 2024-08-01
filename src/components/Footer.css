@@ -1,79 +1,76 @@
-
-
  .footer-container {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px; 
-} 
+     background-color: black;
+     color: white;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 20px;
+ }
 
+ .contact {
+     flex: 1 1 300px;
+     margin: 10px;
+     padding: 10px;
+     cursor: pointer;
+ }
 
-.contact {
-    flex: 1 1 300px; 
-    margin: 10px; 
-    padding: 10px; 
-    cursor: pointer;
-}
+ .contact a {
+     text-decoration: none;
+     color: white;
+ }
 
-.contact a {
-    text-decoration: none;
-    color: white;
-}
+ .contact h5:hover,
+ .contact p:hover,
+ .contact a:hover {
+     color: red;
+ }
 
-.contact h5:hover,
-.contact p:hover,
-.contact a:hover {
-    color: red;
-}
+ .aboutme {
+     flex: 1 1 300px;
+     margin: 10px;
+     padding: 10px;
+ }
 
-.aboutme {
-    flex: 1 1 300px;
-    margin: 10px;
-    padding: 10px;
-}
+ .icons {
+     flex: 1 1 300px;
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+     justify-content: flex-end;
+ }
 
-.icons {
-    flex: 1 1 300px;
-    margin: 10px; 
-    padding: 10px; 
-    display: flex;
-    justify-content: flex-end; 
-}
+ .icons a {
+     margin: 5px;
+     padding: 3px;
+     cursor: pointer;
+     color: rgb(227, 14, 14);
+     font-size: 30px;
+ }
 
-.icons a {
-    margin: 5px;
-    padding: 3px;
-    cursor: pointer;
-    color: rgb(227, 14, 14);
-    font-size: 30px;
-}
+ .icons a:hover {
+     color: red;
+ }
 
-.icons a:hover {
-    color: red;
-}
+ .copyrights {
+     flex: 1 1 100%;
+     text-align: center;
+     padding: 10px;
+ }
 
-.copyrights {
-    flex: 1 1 100%;
-    text-align: center; 
-    padding: 10px; 
-}
+ .copyrights:hover {
+     color: red;
+ }
 
-.copyrights:hover {
-    color: red;
-}
+ @media (max-width: 768px) {
+     .footer-container {
+         flex-direction: column;
+         align-items: center;
+     }
 
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .contact,
-    .aboutme,
-    .icons {
-        width: 100%; 
-        margin: 10px 0; 
-    }
-} 
+     .contact,
+     .aboutme,
+     .icons {
+         width: 100%;
+         margin: 10px 0;
+     }
+ }

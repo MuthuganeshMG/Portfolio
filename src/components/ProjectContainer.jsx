@@ -3,7 +3,6 @@ import Project from './Project';
 
 export default function Head() {
 
-    
     const projects =
         [
             {
@@ -30,11 +29,10 @@ export default function Head() {
                 techstack: ["HTML5", "CSS3", "JavaScript", "React JS"],
                 image: "images/weather.png"
             }
-
         ]
     return (
         <div>
             <Project project={projects} />
         </div>
-    )
+    );
 }

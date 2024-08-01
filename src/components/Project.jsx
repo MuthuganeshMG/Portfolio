@@ -7,7 +7,7 @@ export default function Container(props) {
         window.location.href = 'https://github.com/MuthuganeshMG';
         console.log('project clicked');
     };
-        // const handleClickTodo = () => {
+    // const handleClickTodo = () => {
     //     // Implement download functionality or navigation logic
     //     window.location.href = 'https://github.com/MuthuganeshMG/Todo List';
     //     console.log('project clicked');
@@ -56,5 +56,5 @@ export default function Container(props) {
                 }
             </div>
         </div>
-    )
+    );
 }

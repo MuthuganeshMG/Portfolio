@@ -30,14 +30,12 @@ export default function Footer() {
                     About Me
                 </h4>
                 <div className="about" >
-                    {/* <p> */}
-                        I am MUTHUGANESH, a recent graduate with a degree in B.E
-                        Mechanical Engineering from King College of Technology.
-                        My academic journey has allowed me to develop
-                        a strong foundation in software design and development principles.
-                        I am excited about the possibility of beginning my career as a Software Engineer
-                        and contributing to your innovative software projects.
-                    {/* </p> */}
+                    I am MUTHUGANESH, a recent graduate with a degree in B.E
+                    Mechanical Engineering from King College of Technology.
+                    My academic journey has allowed me to develop
+                    a strong foundation in software design and development principles.
+                    I am excited about the possibility of beginning my career as a Software Engineer
+                    and contributing to your innovative software projects.
                     <p className='icons'>
                         <a
                             href="https://www.linkedin.com/in/muthuganesh3597/"
@@ -64,5 +62,5 @@ export default function Footer() {
             </div>
             <p className='copyrights'>&copy; 2024 copyrights</p>
         </div>
-    )
+    );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skill.css';
-import skillset from '../assets/skillset.jpg'
+import skillset from '../assets/skillset.jpg';
 
 export default function Skill() {
     return (
@@ -27,5 +27,5 @@ export default function Skill() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
