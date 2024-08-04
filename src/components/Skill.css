@@ -1,57 +1,65 @@
-* {
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    /* width: 100%; */
 }
-
-.skill-container>h2 {
-    margin-top: 50px;
-    color: black;
-    border: 1px solid black;
-    width: fit-content;
-    padding: 5px;
-    border-radius: 3px;
-    margin-left: 26%;
+.skill-header{
+    display: flex;
     top: 80px;
     position: sticky;
     z-index: 3000;
 }
-
-.skill-container>h2:hover {
+.skill-head{
+    color: black;
+     border: 1px solid black;
+     border-radius: 3px;
+   margin-left: 200px;
+   padding: 3px 5px;
+   /* top: 80px;
+   position: sticky;
+   z-index: 3000; */
+}
+.skill-head:hover {
     color: azure;
     background-color: orange;
     border: none;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(1, 1, 1, 1);
 }
+.skill-image{
+    width: 100%;
+    display: flex;
 
-.skill-img>img {
-    max-width: 50%;
-    height: auto;
-    margin-top: 0px;
+    align-items: flex-start;
 }
-
-.left {
-    padding: 20px;
-    border-radius: 5px;
-    width: 30%;
+.skill-img{
+    width: 500px;
     height: auto;
-    margin-left: 18%;
-    margin-top: 5%;
-    background-color: teal;
 }
-
+.skill-section{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 10px;
+   width: 100%;
+}
+.right-container{
+    display: flex;
+   /* max-width: 350px; */
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   margin-left: 200px;
+}
 .right {
-    padding: 10px;
-    border-radius: 5px;
-    width: 30%;
-    height: auto;
-    margin-left: 50%;
-    margin-top: 10%;
     background-color: teal;
-    /* opacity: 0.9; */
+    width: 350px;
+    height: auto;
+    padding: 5px;
+    border-radius: 3px;
+    
 }
-
 .right-head {
     background-color: coral;
     width: fit-content;
@@ -59,6 +67,31 @@
     margin-top: 2%;
     color: black;
     padding: 3px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+.right-skillset>h5 {
+    background-color: tomato;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.left-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 200px;
+    /* border: 1px solid red; */
+    /* align-items: flex-end; */
+}
+.left {
+    background-color: teal;
+    width: 350px;
+    height: auto;
+    padding: 5px;
     border-radius: 3px;
 }
 
@@ -69,45 +102,37 @@
     margin-top: 2%;
     color: black;
     padding: 3px;
+    border: 1px solid whitesmoke;
     border-radius: 3px;
 }
 
-.skillset-left>h5 {
+.left-skillset>h5 {
     background-color: tomato;
     color: white;
-    width: fit-content;
+    /* width: fit-content; */
     margin: 10px;
     padding: 5px;
+    border: 1px solid black;
     border-radius: 2px;
 }
 
-.skillset-right>h5 {
-    background-color: tomato;
-    color: white;
-    width: fit-content;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 2px;
-    /* margin-top: 100px; */
-}
-
-.skillset-left>h5:nth-child(1) {
+.left-skillset>h5:nth-child(1) {
     margin-left: 55%;
 }
 
-.skillset-left>h5:nth-child(2) {
+.left-skillset>h5:nth-child(2) {
     margin-left: 35%;
 }
 
-.skillset-left>h5:nth-child(3) {
+.left-skillset>h5:nth-child(3) {
     margin-left: 23%;
 }
 
-.skillset-left>h5:nth-child(4) {
+.left-skillset>h5:nth-child(4) {
     margin-left: 8%;
 }
 
-.skillset-right>h5:nth-child(1) {
+.right-skillset>h5:nth-child(1) {
     margin-left: 50%;
 }
 
@@ -121,42 +146,24 @@ h5:nth-child(3) {
 
 .right-head:hover {
     color: aliceblue;
+    border: 1px solid black;
     cursor: pointer;
 }
 
 .left-head:hover {
     color: aliceblue;
+    border: 1px solid black;
     cursor: pointer;
 }
 
-.skillset-right>h5:hover {
+.right-skillset>h5:hover {
     color: black;
+    border: 1px solid whitesmoke;
     cursor: pointer;
 }
 
-.skillset-left>h5:hover {
+.left-skillset>h5:hover {
     color: black;
+    border: 1px solid whitesmoke;
     cursor: pointer;
-}
-
-@media (min-width: 768px) {
-    .right .left {
-        width: 50%;
-    }
-}
-
-@media (max-width: 992px) {
-    .right .left {
-        width: 50%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .skill-container {
-        margin-top: 250px;
-    }
-
-    .right .left {
-        width: 50%;
-    }
 }
