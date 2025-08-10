@@ -38,7 +38,7 @@ export default function Footer() {
                     and contributing to your innovative software projects.
                     <p className='icons'>
                         <a
-                            href="https://www.linkedin.com/in/muthuganesh3597/"
+                            href="https://www.linkedin.com/in/muthuganesh3597"
                             className='linkedin'>
                             <FaLinkedin />
                         </a>
@@ -60,7 +60,7 @@ export default function Footer() {
                     </p>
                 </div>
             </div>
-            <p className='copyrights'>&copy; 2024 copyrights</p>
+            <p className='copyrights'>&copy; 2025 copyrights</p>
         </div>
     );
 }

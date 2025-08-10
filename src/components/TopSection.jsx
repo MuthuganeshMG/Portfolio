@@ -4,7 +4,8 @@ import './TopSection.css';
 export default function TopSection() {
 
     const handleDownloadCV = () => {
-        window.location.href = 'https://mail.google.com/mail/u/0/#label/My+CV/KtbxLzFrLTKkFgcQPhMbfTZQpJvBKBNQkL';
+        // window.location.href = 'https://mail.google.com/mail/u/0/#label/My+CV/KtbxLzFrLTKkFgcQPhMbfTZQpJvBKBNQkL';
+        window.location.href ='https://drive.google.com/file/d/1AO29IYSDy-XWxVJX8QWIEo3cvB5_QuNE/view?usp=drive_link';
         console.log('Download CV clicked');
     };
 
